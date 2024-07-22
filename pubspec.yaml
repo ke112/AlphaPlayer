@@ -1,5 +1,5 @@
 name: alpha_player_plugin
-description: 用于播放mp4透明视频的插件，对字节跳动官方原生组件AlphaPlayer的封装
+description: A plug-in for playing transparent MP4 videos, a wrapper for ByteDance's official native component AlphaPlayer
 version: 0.0.1
 homepage: https://github.com/pengboboer/alpha_player_plugin
 

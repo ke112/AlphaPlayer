@@ -4,6 +4,13 @@
 具体实现功能见字节跳动官方github:
 https://github.com/bytedance/AlphaPlayer
 
+### 关于透明视频
+* 透明视频的播放，对于webm格式的视频，在h5上面是很容易播放的
+* 但是对于android或者flutter来说，尤其flutter的官方video_player是不支持带有透明通道的视频播放的
+* 但是对于字节跳动这个方案，综合起来还是比较合适的
+* 比如我们想播一个炫酷的礼物特效，要求有透明效果，这种用AlphaPlayer实现最好不过了
+* 可以这个插件目前没有flutter版本的，那么就来手撸一个
+
 ### 运行效果
 
 <img src="./demo_show.gif" width=320 />
