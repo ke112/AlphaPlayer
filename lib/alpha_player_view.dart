@@ -69,10 +69,11 @@ class _AlphaPlayerViewState extends State<AlphaPlayerView> {
     final Widget showWidget;
     if (Platform.isAndroid) {
       showWidget = AndroidView(
-          viewType: _viewType,
-          onPlatformViewCreated: _onPlatformViewCreated,
-          creationParamsCodec: const StandardMessageCodec(),
-          hitTestBehavior: PlatformViewHitTestBehavior.transparent);
+        viewType: _viewType,
+        onPlatformViewCreated: _onPlatformViewCreated,
+        creationParamsCodec: const StandardMessageCodec(),
+        hitTestBehavior: PlatformViewHitTestBehavior.transparent,
+      );
     } else if (Platform.isIOS) {
       showWidget = UiKitView(
         viewType: _viewType,
